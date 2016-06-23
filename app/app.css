@@ -25,7 +25,9 @@ a {
     border: 2px solid white;
     border-radius: 2px;
 }
-
+#footer{
+  color:black;
+}
 #header {
     text-align: right;
 }
