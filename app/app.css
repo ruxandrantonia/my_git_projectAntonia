@@ -31,3 +31,90 @@ a {
 #header {
     text-align: right;
 }
+#section-one h1{
+  text-align: center;
+  color:white;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+#section-one h2{
+  text-align: center;
+  color:white;
+}
+#section-one{
+  background-color: rgb(0,100,250);
+}
+.col-inline{
+  width: 32.33%;
+  display: inline-block;
+
+}
+
+
+.image-wrapper img{
+  width: auto;
+  border: 2px solid white;
+  border-radius: 60%;
+  height:50px;
+  top:50%;
+  left:50%;
+  position:relative;
+
+}
+
+#section-two {
+    background-color: grey;
+
+}
+#section-two h3 {
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#section-two h5 {
+    text-align: center;
+    color: white;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+.row-group {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.col {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.col img {
+    width: 100%;
+    transition: all 1s linear;
+
+}
+.col img:hover{
+
+transform: scale(1.1);
+opacity: 0.6;
+
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer a {
+  color: black;
+  transition-delay: 1s;
+
+
+}
+.arrow:hover{
+ transform:rotate(90deg);
+
+}
