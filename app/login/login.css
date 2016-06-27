@@ -1,0 +1,121 @@
+#header{
+  background-color: black;
+  text-align: right;
+height:5%;
+width: 100%;
+position: fixed;
+
+}
+#header a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  float: right;
+  padding: 10px;
+}
+#header h1{
+  color :white;
+  position: absolute;
+  margin-top: 5px;
+  float: left;
+  padding-left: 40px;
+}
+
+#one{
+  background-color: rgb(0,100,250);
+  height:500px;
+  padding:10px;
+}
+#one h2{
+  color:white;
+
+}
+
+#password{
+  color: white;
+  margin-bottom: 0;
+  margin-top: 10px;
+
+
+}
+#username
+{
+  color: white;
+  margin-bottom: 0;
+}
+
+#div3{
+  margin: auto;
+  width: 30%;
+
+}
+#div3 input{
+  background-color: transparent;
+  border-radius: 15px;
+  font-size: 25px;
+
+
+
+}
+#div3 label{
+  font-size: 20px;
+  color:white;
+
+
+}
+#div3 button{
+  color: white;
+  background-color: transparent;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#div3 input{
+  color: white;
+}
+#div3 h2{
+  margin-top: 0;
+  padding-top: 60px;
+}
+
+#div5{
+  color : white;
+  text-align: right;
+  clear:both;
+
+
+}
+#div5 a{
+  text-decoration: none;
+  color: white;
+
+}
+#two{
+  background-color: white;
+  height:300px;
+}
+.footer a {
+  color: blue;
+
+
+}
+.arrow:hover{
+ transform: rotate(360deg);
+ transition: 1s linear;
+
+}
+.footer {
+  width:100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  height:90px;
+  clear:both;
+
+}
+fieldset {
+float:right;
+    color: white;
+    border: 0;
+}

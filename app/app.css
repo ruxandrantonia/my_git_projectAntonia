@@ -49,6 +49,7 @@ a {
   width: 32.33%;
   display: inline-block;
 
+
 }
 
 
@@ -60,6 +61,7 @@ a {
   top:50%;
   left:50%;
   position:relative;
+  padding:3%;
 
 }
 
