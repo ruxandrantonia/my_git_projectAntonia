@@ -1,0 +1,92 @@
+#one{
+  background-color: white;
+  text-align: right;
+  height:30px;
+
+}
+header{
+  position: fixed;
+  width:100%;
+}
+#one h2{
+  font-family: monospace;
+  color:rgb(0,0,102);
+  position: absolute;;
+  float:left;
+  font-size: 30px;
+  margin-top: 5px;
+  padding-left: 40px;
+
+}
+#one a{
+  font-family: monospace;
+  color: rgb(0,0,102);
+  text-decoration: none;
+  font-size: 20px;
+  padding-right: 30px;
+  margin-top: 5px;
+}
+
+#two{
+  background-color: rgb(102,0,51);
+  height:500px;
+  color:white;
+
+}
+#div1{
+  margin: auto;
+  width:30%;
+}
+#div1 h1{
+  padding-top: 20px;
+  font-family: monospace;
+  font-size: 30px;
+}
+#div1 input{
+  border-radius: 20px;
+  width: 100%;
+}
+#div1 label{
+  font-family: monospace;
+  font-size: 19px;
+}
+input:invalid{
+  border: 1px solid red;
+}
+
+fieldset{
+  padding:30px;
+  border:0;
+  float:right;
+
+}
+#div1 button{
+  background-color: transparent;
+  color:white;
+  border : 2px solid white;
+}
+
+button:hover{
+  background: rgba($red, 0);
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.footer{
+  width:100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  height:90px;
+  clear:both;
+}
+.footer a {
+  color: rgb(0,0,102);
+  }
+.arrow:hover{
+ transform: rotate(360deg);
+ transition: 1s linear;
+}
+.footer p{
+  color: rgb(0,153,153);
+}

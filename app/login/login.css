@@ -12,6 +12,7 @@ position: fixed;
   font-size: 20px;
   float: right;
   padding: 10px;
+  font-family: monospace;
 }
 #header h1{
   color :white;
@@ -22,12 +23,14 @@ position: fixed;
 }
 
 #one{
-  background-color: rgb(0,100,250);
+  background-color: rgb(0,153,153);
   height:500px;
   padding:10px;
 }
 #one h2{
   color:white;
+  font-family: monospace;
+  font-size: 38px;
 
 }
 
@@ -118,4 +121,8 @@ fieldset {
 float:right;
     color: white;
     border: 0;
+}
+
+input:invalid{
+  border: 2px solid red;
 }
