@@ -1,4 +1,44 @@
+
 #one{
+  background-color: rgb(102,0,51);
+  height:auto;
+  color:white;
+
+}
+
+
+  #div1{
+    margin: auto;
+    width: 30%;
+  }
+  #div1 h1{
+    padding-top: 10%;
+
+  }
+
+
+
+  .footer{
+    width:100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height:90px;
+    clear:both;
+  }
+  .footer a {
+    color: rgb(0,0,102);
+    }
+  .arrow:hover{
+   transform: rotate(360deg);
+   transition: 1s linear;
+  }
+  .footer p{
+    color: rgb(0,153,153);
+  }
+
+
+/*#one{
   background-color: white;
   text-align: right;
   height:30px;
@@ -90,3 +130,4 @@ button:hover{
 .footer p{
   color: rgb(0,153,153);
 }
+*/

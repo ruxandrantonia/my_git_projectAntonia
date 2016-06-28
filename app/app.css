@@ -12,7 +12,8 @@ a {
 #nav {
     padding-top: 20px;
 }
-#p1 {
+.bannertext h1 {
+  padding:30px;
     text-align: center;
     color: white;
     font-size: 80px;
@@ -44,29 +45,29 @@ a {
 }
 #section-one{
   background-color: rgb(0,100,250);
-}
-.col-inline{
-  width: 32.33%;
-  display: inline-block;
-
 
 }
 
-
-.image-wrapper img{
+.col-icons{
   width: auto;
   border: 2px solid white;
   border-radius: 60%;
-  height:50px;
-  top:50%;
-  left:50%;
   position:relative;
-  padding:3%;
+  margin-right:15%;
+  margin-left: 85px;
 
+
+}
+
+.col-icons img{
+
+padding:4%;
+height:80px;
 }
 
 #section-two {
     background-color: grey;
+
 
 }
 #section-two h3 {
@@ -79,26 +80,23 @@ a {
     text-align: center;
     color: white;
 }
-.container {
-    width: 1200px;
-    margin: auto;
-}
-.row-group {
+
+.row {
     margin-right: -10px;
     margin-left: -10px;
+
 }
-.col {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    box-sizing: border-box;
+.col-images{
+  margin-bottom: 10px;
 }
-.col img {
+
+.col-images img {
     width: 100%;
     transition: all 1s linear;
 
+
 }
-.col img:hover{
+.col-images img:hover{
 
 transform: scale(1.1);
 opacity: 0.6;
@@ -112,11 +110,12 @@ opacity: 0.6;
 }
 .footer a {
   color: black;
-  transition-delay: 1s;
+
 
 
 }
 .arrow:hover{
- transform:rotate(90deg);
+transition: 1s linear;
+ transform:rotate(360deg);
 
 }
