@@ -37,6 +37,14 @@
     color: rgb(0,153,153);
   }
 
+button{
+  float: right;
+}
+.checkbox{
+  text-align: right;
+  clear:both;
+}
+
 
 /*#one{
   background-color: white;
