@@ -18,12 +18,25 @@
 
 
 }
+.p1{
+  float:right;
+  color: white;
+  margin-right: 40px;
+}
+.p1 p{
+  position:absolute;
+  border: 2px solid red;
+  border-radius: 50% ;
+  background-color: red;
+  padding:8px;
 
+}
 .col-images img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
     width: 100%;
     transition: all 1s linear;
+
 }
 .col-images img:hover{
 transform: scale(0.9);
@@ -36,7 +49,7 @@ opacity: 0.6;
   border-radius: 10px;
 }
 
-.container p{
+.effect1 p{
   text-align: left;
 margin-left: 10px;
 }
