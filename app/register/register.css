@@ -37,12 +37,10 @@
     color: rgb(0,153,153);
   }
 
-button{
+.one button{
   float: right;
-}
-.checkbox{
-  text-align: right;
-  clear:both;
+
+
 }
 
 

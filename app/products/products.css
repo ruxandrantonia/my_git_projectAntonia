@@ -35,12 +35,29 @@ opacity: 0.6;
   box-shadow: 0 8px 6px -6px black;
   border-radius: 10px;
 }
+
 .container p{
   text-align: left;
 margin-left: 10px;
 }
+.col-img img{
 
+    width: 100%;
+}
+.media-list img{
+  margin-top: 10px;
+  margin-bottom: 10px;
 
+}
+
+.paragraph{
+  margin-top: 20px;
+
+}
+
+nav{
+  float:left;
+}
 
 .footer{
   width:100%;
