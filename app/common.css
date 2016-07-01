@@ -1,0 +1,43 @@
+.section-one-lgreg{
+    background-color: rgb(0, 153, 153);
+    height: auto;
+    color: white;
+}
+.div1-lgreg {
+    margin: auto;
+    width: 30%;
+}
+.div1-lgreg h1 {
+    padding-top: 10%;
+}
+.effect1 {
+    box-shadow: 0 8px 6px -6px black;
+    border-radius: 10px;
+}
+.main{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.footer{
+  width:100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  clear:both;
+}
+.footer a {
+  color: rgb(0,0,102);
+  }
+.arrow:hover{
+ transform: rotate(360deg);
+ transition: 1s linear;
+}
+.footer p{
+  color: rgb(0,153,153);
+}
+.btn1 {
+    background-color: red;
+    color: white;
+    border: 0;
+    margin-top: 10px;
+}
