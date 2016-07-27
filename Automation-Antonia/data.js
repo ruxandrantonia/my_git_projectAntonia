@@ -1,0 +1,22 @@
+module.exports = {
+  username:{
+    locator:'credentials.username',
+    type:'model'
+  },
+  password:{
+    locator:'credentials.password',
+    type:"model"
+  },
+  login:{
+    locator:'[ng-click="login()"]',
+    type:"css"
+  },
+  logout:{
+    locator:'[ng-click="logout()"]',
+    type:"css"
+  },
+  login_invalid_message:{
+  locator:'[ng-show="message.show"]',
+  type:"css"
+}
+}
