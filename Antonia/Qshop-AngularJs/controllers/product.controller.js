@@ -1,31 +1,28 @@
-angular.module("qshop").controller("ProductController",function($scope,$stateParams,ProductsRepository,Cart) {
-
+angular.module("qshop").controller("ProductController", function($scope, $stateParams, ProductsRepository, Cart) {
+    $scope.quantity = 1;
     $scope.tabPanel = "description";
+    $scope.creste = function() {
+        $scope.quantity++;
+    }
+
+    $scope.scade = function() {
+        if ($scope.quantity > 1) {
+            $scope.quantity--;
+        }
+    }
+
+
+
     $scope.showTab = function(tabName) {
         $scope.tabPanel = tabName;
     }
-
-    $scope.productQty = 1;
-    $scope.scade = function() {
-        if ($scope.productQty >= 2) {
-            $scope.productQty--;
-        }
-    }
-    $scope.creste = function() {
-        $scope.productQty++;
-    }
-
-$scope.addToCart=function(){
-  $scope.product.qty=$scope.productQty;
-  Cart.add($scope.product);
-};
     $scope.loadProduct = function() {
-        console.log("Load product called", $stateParams);
+        console.log("Load Product called", $stateParams);
         ProductsRepository.getProductsList().then(function(result) {
             var productId = $stateParams.id;
 
             for (var i = 0; i < result.data.length; i++) {
-                if (result.data[i].id == productId) {
+                if (productId == result.data[i].id) {
                     $scope.product = result.data[i];
                     break;
                 }
@@ -35,7 +32,8 @@ $scope.addToCart=function(){
             console.error(err);
         });
     };
-
-
+    $scope.addToCart = function() {
+        Cart.add($scope.product, $scope.quantity);
+    };
 
 });

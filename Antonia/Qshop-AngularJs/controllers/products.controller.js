@@ -1,21 +1,12 @@
-angular.module("qshop").controller("ProductsController", function($scope,ProductsRepository) {
-
-    ProductsRepository.getProductsList().then(function(result) {
-        $scope.products = result.data;
-        console.log('Products', result.data);
-        var produs = {
-            "picture": "../assets/images/products/product-3.jpg",
-            "name": "New product",
-            "price": 299,
-            "onSale": false,
-            "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
-
-        };
-
-        $scope.products.push(produs);
-
-
+angular.module("qshop").controller("ProductsController", function($scope, ProductsRepository, Cart) {
+  ProductsRepository.getProductsList().then(function(result) {
+        $scope.products = result.data
     }, function(err) {
         console.error(err);
     });
+
+    $scope.addToCart = function(product) {
+        // product.quantity = 1;
+        Cart.add(product,1);
+    }
 });
